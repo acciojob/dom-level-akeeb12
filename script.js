@@ -1,11 +1,11 @@
 //your JS code here. If required.
-const element = document.getElementByID('level')
+let element = document.getElementById('level')
 
-const level = 0;
+let level = 0;
 
 while (element.parentNode) {
 	level++;
 	element = element.parentNode;
 }
 
-alert (`The level of the element is: ${n}`);
+alert (`The level of the element is: ${level}`);
