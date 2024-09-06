@@ -8,4 +8,4 @@ while (element.parentNode) {
 	element = element.parentNode;
 }
 
-alert (`The level of the element is: ${level}`);
+alert (`The level of the element is: ${n}`);
